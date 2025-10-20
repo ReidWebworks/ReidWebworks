@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reid Webworks</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans antialiased">
+
+<!-- Header -->
+<header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+  <div class="flex items-center space-x-3">
+    <div class="w-10 h-10 rounded-md bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black font-bold">RW</div>
+    <div>
+      <h1 class="text-xl font-semibold">Reid Webworks</h1>
+      <p class="text-xs text-gray-300">Where Modern Design Meets Digital Excellence</p>
+    </div>
+  </div>
+  <nav class="hidden md:flex gap-6 text-sm text-gray-300">
+    <a href="#about" class="hover:text-white">About</a>
+    <a href="#services" class="hover:text-white">Services</a>
+    <a href="#portfolio" class="hover:text-white">Portfolio</a>
+    <a href="#contact" class="hover:text-white">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
+  <div class="md:w-1/2">
+    <h2 class="text-4xl md:text-5xl font-bold leading-tight">Reid Webworks</h2>
+    <p class="mt-4 text-lg text-gray-300">Where Modern Design Meets Digital Excellence — I build high-converting, responsive websites with a premium aesthetic for small businesses and creators.</p>
+    <div class="mt-8 flex gap-4">
+      <a href="#contact" class="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-md shadow-md">Let’s Build Something Great</a>
+      <a href="#portfolio" class="px-6 py-3 border border-gray-700 text-gray-300 rounded-md">See Portfolio</a>
+    </div>
+    <div class="mt-6 text-sm text-gray-500">Available for freelance & short-term contracts.</div>
+  </div>
+  <div class="md:w-1/2">
+    <div class="w-full rounded-xl overflow-hidden shadow-xl border border-gray-800">
+      <img src="https://images.unsplash.com/photo-1581091215360-3eea2b3d401e?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3" alt="hero tech abstract" class="w-full h-64 object-cover">
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="bg-white text-black py-16">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h3 class="text-3xl font-semibold">About Josiah Reid</h3>
+      <p class="mt-4 text-gray-700">I’m Josiah — a web designer focused on clean visuals, strong UX, and performance. I help brands tell their story online with sites that look premium and convert visitors into customers.</p>
+      <ul class="mt-6 space-y-2 text-gray-700">
+        <li>• Responsive design & performance-focused builds</li>
+        <li>• Brand identity & visual systems</li>
+        <li>• SEO setup & analytics integration</li>
+      </ul>
+    </div>
+    <div>
+      <div class="rounded-lg overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3" alt="about mock" class="w-full h-64 object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="max-w-6xl mx-auto px-6 py-16">
+  <h4 class="text-2xl font-semibold">Services</h4>
+  <p class="mt-2 text-gray-400">Polished, reliable services tailored to growing brands.</p>
+  <div class="mt-8 grid md:grid-cols-3 gap-6">
+    <div class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+      <h5 class="font-semibold text-lg">Web Design</h5>
+      <p class="mt-3 text-gray-400">Custom responsive sites using modern tools — focused on speed, accessibility, and conversions.</p>
+      <ul class="mt-4 text-sm text-gray-500 space-y-1">
+        <li>• Landing pages</li>
+        <li>• Multi-page sites</li>
+        <li>• E‑commerce</li>
+      </ul>
+    </div>
+    <div class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+      <h5 class="font-semibold text-lg">Brand Identity</h5>
+      <p class="mt-3 text-gray-400">Logo design, color systems, and brand guidelines to make your business memorable.</p>
+      <ul class="mt-4 text-sm text-gray-500 space-y-1">
+        <li>• Logos & marks</li>
+        <li>• Visual systems</li>
+        <li>• UI Kits</li>
+      </ul>
+    </div>
+    <div class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+      <h5 class="font-semibold text-lg">SEO & Analytics</h5>
+      <p class="mt-3 text-gray-400">Setup for Google Analytics, search optimization, and performance tracking for maximum reach.</p>
+      <ul class="mt-4 text-sm text-gray-500 space-y-1">
+        <li>• Analytics integration</li>
+        <li>• SEO-friendly structure</li>
+        <li>• Performance optimization</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="max-w-6xl mx-auto px-6 py-16">
+  <h4 class="text-2xl font-semibold">Portfolio</h4>
+  <p class="mt-2 text-gray-400">Sample projects showcasing my capabilities.</p>
+  <div class="mt-8 grid md:grid-cols-3 gap-6">
+    <div class="rounded-lg overflow-hidden shadow-lg bg-gray-900 border border-gray-800">
+      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Luxe Homes" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h5 class="font-semibold text-lg">Luxe Homes</h5>
+        <p class="text-gray-400 text-sm mt-2">Real estate portfolio site with interactive listings and high-quality imagery.</p>
+      </div>
+    </div>
+    <div class="rounded-lg overflow-hidden shadow-lg bg-gray-900 border border-gray-800">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Café Solace" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h5 class="font-semibold text-lg">Café Solace</h5>
+        <p class="text-gray-400 text-sm mt-2">Local coffee shop site with menu, events, and online ordering.</p>
+      </div>
+    </div>
+    <div class="rounded-lg overflow-hidden shadow-lg bg-gray-900 border border-gray-800">
+      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3" alt="NeoTech Media" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h5 class="font-semibold text-lg">NeoTech Media</h5>
+        <p class="text-gray-400 text-sm mt-2">Agency landing page highlighting services, team, and portfolio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="max-w-6xl mx-auto px-6 py-16">
+  <h4 class="text-2xl font-semibold">Contact</h4>
+  <p class="mt-2 text-gray-400">Reach out for projects or collaborations.</p>
+  <p class="mt-4 text-gray-300">Email: <a href="mailto:joshooter3@gmail.com" class="underline">joshooter3@gmail.com</a></p>
+</section>
+
+</body>
+</html>
